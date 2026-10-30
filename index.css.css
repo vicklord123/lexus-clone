@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.kala{
+    height: 50px;
+    width: 100%;
+    background-color: #6DB33F;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.spring-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.spring-logo img{
+    width: 150px;
+}
+.spring-logo small{
+    color: #ACD589;
+    font-size: 15px;
+    
+}
+.spring-items{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.contemplate{
+    position: relative;
+}
+.contemplate p{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Helvetica, Arial, Lucida, sans-serif;
+
+}
+.drop-down1{
+    
+    min-width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    opacity: 0;
+    box-shadow: 3px 4px lightgrey;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+    padding-right: 30px;
+    
+    
+}
+.drop-down1 a, .drop-down2 a, .drop-down3 a, .drop-down4 a, .drop-down5 a, .drop-down6 a{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    line-height: 1.6;
+    color: black;
+    display: block; 
+    padding-left: 10px;
+}
+.drop-down1 p, .drop-down2 p, .drop-down3 p, .drop-down4 p, .drop-down5 p, .drop-down6{
+    color: grey;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    display: block;
+}
+.contemplate:hover .drop-down1{
+    visibility: visible;
+    opacity: 1;
+}
+.drop-down2{
+    height: 160px;
+    min-width: 200PX;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    box-shadow: 3px 4px lightgrey;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+}
+.contemplate:hover .drop-down2{
+    visibility: visible;
+    opacity: 1;
+}
+.drop-down3{
+    height: 300px;
+    min-width: 200px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    box-shadow: 3px 4px lightgrey;
+    opacity:1;
+    z-index: 9999;
+    visibility: hidden;
+}
+.contemplate:hover .drop-down3{
+    visibility: visible;
+    opacity: 1;
+}
+.drop-down4{
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    box-shadow: 3px 4px lightgrey;
+    opacity:1;
+    z-index: 9999;
+    visibility: hidden;
+}
+.contemplate:hover .drop-down4{
+    visibility: visible;
+    opacity: 1;
+}
+.drop-down5{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    box-shadow: 3px 4px lightgrey;
+    opacity:1;
+    z-index: 9999;
+    visibility: hidden;
+}
+.contemplate:hover .drop-down5{
+    visibility: visible;
+    opacity: 1;
+}
+.drop-down6{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    box-shadow: 3px 4px lightgrey;
+    opacity:1;
+    z-index: 9999;
+    visibility: hidden;
+}
+.contemplate:hover .drop-down6{
+    visibility: visible;
+    opacity: 1;
+}
+.icon{
+    display: none;
+    position: relative;
+}
+.icon i{
+    font-size: 20px;
+}
+
+.yuppy{
+    background-color: pink;
+    width: auto;
+    height: 40vh;
+}
+.lorev h2{
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 20px;
+    
+}
+.lorev{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.dis{
+    display: flex;
+    justify-content: center;
+    
+}
+.sott{
+    padding-top: 40px;
+}
+
+.slot{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 12px;
+    text-align: center;
+    background-color: white;
+}
+.slott{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 12px;
+    text-align: center;
+    background-color: white;
+}
+
+.sese{
+    width: 100px;
+    height: 30px;
+    background-color: #0066CC;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+}
+.xx{
+    color: #308DD1;
+    font-size: 18px;
+}
+.xx:hover{
+    text-decoration: underline;
+}
+.bordee{
+    border-left: 1px solid lightgrey;
+}
+.constip{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.legit{
+    border-bottom: 1px solid lightgrey;
+    padding-top: 30px;
+}
+.littt{
+    padding-top: 40px;
+}
+.scotti{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.lopes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 40px;
+    
+}
+.soludo{
+    width: 260px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    text-align: center;
+}
+.soludo:hover{
+    transform: translateY(-8px);
+    box-shadow: 1px 1px 3px 1px lightgrey;
+}
+.soludo img{
+    width: 70px;
+}
+.soludo h2{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.soludo p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    line-height: 2.3;
+}
+.curved{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+.nion{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.kopi h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.kopi{
+    width: 500px;
+    padding-top: 20px;
+    font-family:sans-serif;
+}
+.kopi p{
+    font-size: 16px;
+    padding-top: 16px;
+    line-height: 26px;
+    max-width: 900px;
+    width: 600px;
+    padding-right: 10px;
+}
+.kopi span{
+    font-size: 15px;
+    padding-top: 30px;
+    
+}
+.liss{
+    color: #71ABDD;
+}
+.soppy{
+    padding-top: 80px;
+}
+.scolly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.scolly img{
+    width: 50px;
+}
+.lorre img{
+    width: 40px;
+    border-radius: 40px;
+}
+.scolly p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #589133;
+    font-family: sans-serif;
+    max-width: 1200px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.lorre{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+}
+.kill a{
+    text-decoration: none;
+
+}
+.kill a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+.color-selection{
+    background-color: red;
+    
+    height: 300px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
